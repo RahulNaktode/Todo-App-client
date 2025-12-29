@@ -1,0 +1,47 @@
+.task-container{
+    border: 2px solid black;
+    padding: 0 10px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-add-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.deleteIcon{
+    height: 29px;
+    cursor: pointer;
+}
+
+.editIcon{
+    height: 29px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.input{
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 500px;
+    margin-right: 10px;
+}
+
+.btn{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
